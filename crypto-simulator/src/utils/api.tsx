@@ -1,5 +1,5 @@
 
-const CRYPTO_SIMULATOR_URL = "https://crypto-simulator/" 
+const CRYPTO_SIMULATOR_URL = process.env.CRYPTO_SIMULATOR_URL
 
 export const _get = async (endpoint: string): Promise<any> => {
     try {
